@@ -51,6 +51,12 @@ function Signup() {
         <input type='number' value={number} onChange={(e)=>{setNumber(e.target.value)}}/>
         <label htmlFor=''>Password: </label>
         <input type='password' value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
+         <div className='already-account'>
+            <p>
+              Already have an account? <span onClick={() => navigate('/login')}>Login here!</span>
+            </p>
+          </div>
+
         <button>Sign Up</button>
 
       </form>

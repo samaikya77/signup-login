@@ -14,6 +14,7 @@ function Welcome() {
   }
 
   function handleLogout() {
+    
     navigate('/login')
   }
 

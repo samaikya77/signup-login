@@ -50,3 +50,14 @@ body {
 #form button:hover {
   background-color: #357ab7;
 }
+
+.dont-have-account{
+    display: flex;
+    margin-top: 1rem;
+    margin-left: 3.99rem;
+}
+
+.dont-have-account span{
+    color: #0606b9;
+    cursor: pointer;
+}

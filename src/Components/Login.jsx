@@ -32,6 +32,9 @@ function Login() {
         <input type='email' value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
         <label htmlFor=''>Password: </label>
         <input type='password' value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
+        <div className='dont-have-account'>
+           <p>Don't have an account? <span onClick={()=>navigate('/signup')}>Sign Up here!</span></p>
+        </div>
         <button>Login</button>
       </form>
     </div>
